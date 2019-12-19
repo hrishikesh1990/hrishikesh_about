@@ -1,0 +1,69 @@
+html {
+	/*background: url("../img/background.png"), linear-gradient(90deg, hsl(160, 100%, 98%), hsl(200, 100%, 98%));*/
+	background: rgba(57, 204, 204, 0.1);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	font-family: "Crimson Pro", Georgia, sans-serif;
+	color: hsl(0, 0%, 6%);
+	background: none;
+}
+
+.container {
+	max-width: 703px;
+	margin-left: 36px;
+	margin-right: 36px;
+	margin-top: 66px;
+}
+
+.head {
+	width: 100%;
+	flex-direction: column;
+	align-items: left;
+	margin-bottom: 36px;
+	text-align: left;
+}
+
+.head-title {
+	align-items: left;
+}
+
+.section {
+	flex-direction: column;
+	margin-bottom: 36px;
+}
+
+.section:last-of-type {
+	margin-bottom: 66px;
+}
+
+.about p, .presence p {
+	margin-bottom: 21px;
+}
+
+.projects p {
+	margin-bottom: 10px;
+}
+
+h1, h2 {
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 21px;
+	margin-bottom: 21px;
+}
+
+a {
+	color: hsl(0, 0%, 6%);
+	border-bottom: 1px solid hsl(0, 0%, 6%);
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	margin-right: 15px;
+	border-radius: 6px;
+}
